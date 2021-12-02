@@ -66,8 +66,9 @@ terraform {
 To run the example, create a `terraform.tfvars`:
 
 ```json
-tss_username   = "my_app_user"
-tss_password   = "Passw0rd."
-tss_server_url = "https://example/SecretServer"
-tss_secret_id  = "1"
+tss_username    = "my_app_user"
+tss_password    = "Passw0rd."
+tss_server_url  = "https://example/SecretServer"
+tss_secret_id   = 1
+tss_secret_path = "/example/folder/path/secretName"
 ```
